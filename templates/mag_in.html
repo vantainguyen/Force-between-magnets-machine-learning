@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+	<title>DEMAGFO</title>
+	<meta charset = 'UTF-8'>
+	<meta name = 'description' content = 'Computing the levitation force
+	between permanent magnets using machine learning'>
+	<meta name = 'author' content = 'Van Tai Nguyen, Michael and Matthew from University of Queensland'>
+	<meta name = 'keywords' content = 'Deep learning, magnetic force, levitation force
+	magnetic cylinders'>
+	<meta name = 'viewport' content = 'width=device-width, initial-scale=1.0'>
+</head>
+<style>
+div.absolute_Fig {
+	position: absolute;
+	top: 60px;
+	right: 300px;
+	width: 350px;
+	height:350px;
+}
+
+div.absolute_J_1 {
+	position: absolute;
+	top: 70px;
+	right: 138px;
+	width: 350px;
+	height:350px;
+}
+
+div.absolute_J {
+	position: absolute;
+	top: 155px;
+	right: 141px;
+	width: 350px;
+	height:350px;
+}
+
+div.absolute_F {
+	position: absolute;
+	top: -30px;
+	right: -234px;
+	width: 350px;
+	height:350px;
+}
+
+</style>
+<body style = 'background-color:#FFFFFF'>
+	
+	<form action='http://localhost:5000/predict' method='post'>
+		<!--Input the geometrical parameters of the cylinders-->
+		<!--Input the geometrical parameters of the first cylinder-->
+		<h2 style = 'color:blue; background-color:#99FFFF;text-align:center;' >Computing the Levitation Force between Permanent Magnets using a Machine Learning based Data-Driven Model</h2>
+		<h4>Input the material property and geometrical parameters of the lower cylinder.</h4>
+		<p>Remanence (J): <input type='text' name='J' placeholder =  '{{J}} (T)'/> </p>
+		<p>Radius (R): <input type='text' name='R' placeholder = '{{R}} (mm)'/></p>
+		
+		<p>Height (h): <input type='text' name='h' placeholder = '{{h}} (mm)'/></p>
+		
+
+		<!--Input the geometrical parameters of the second cylinder-->
+		<h4>Input the material property and geometrical parameters of the upper cylinder.</h4>
+		<p>Remanence (J<sub>1</sub>): <input type='text' name='J_1'
+		placeholder = '{{J_1}} (T)'/></p>
+		
+		<p>Radius (R<sub>1</sub>): <input type='text' name='R_1' placeholder = '{{R_1}} (mm)'/></p>
+		
+		<p>Height (h<sub>1</sub>): <input type='text' name='h_1' placeholder = '{{h_1}} (mm)'/></p>
+		
+
+		<!--Input the separation distance between the cylinders-->
+		<h4>Input the separation distance between the cylinders.</h4>
+		<p>Separation distance (&#958): <input type='text' name='&#958' placeholder = '{{xi}} (mm)'/></p>
+
+		<p style = 'color: red;'><b>Levitation force F: {{predicted_force}} (N)</b></p>
+		
+		<p><input type='Submit' value='Predict'/></p>
+
+		<p style = 'color: #000; background-color:#CCCCFF';><i>This work has the Creative Commons license of 4.0 (CC BY 4.0) which is free to adapt and share, but not for commercial purposes. This license belongs to the Univesrity of Queensland (UQ). Authors: Nguyen, Michael and Matthew from UQ.</i></p>
+
+
+	</form>
+		<div class = 'absolute_Fig'> <img src = '{{figure_geo}}' alt = 'Levitated_cylinders' width = '320'
+		height = '370'> 
+			<p> {{Fig}} </p>
+		</div>
+
+		<div class = 'absolute_J_1'> <img src = '{{arrow_J_1}}' alt = 'arrow_J_1' width = '12'
+		height = '56'> 
+
+		<div class = 'absolute_J'> <img src = '{{arrow_J}}' alt = 'arrow_J' width = '12'
+		height = '56'> 
+		
+		<div class = 'absolute_F'> <img src = '{{arrow_F}}' alt = 'arrow_F' width = '12'
+		height = '56'> 
+</body>
+</html>
