@@ -3,7 +3,7 @@ Computing the Levitation Force between Permanent Magnets using a Machine Learnin
 
 Steps to open the HTML based API for the computation of the magnetic force between two cylindrical permanent magnets:
 
-1. Download all the files and unzip in a folder visible to Python;
+1. Download all the files and unzip in a folder visible to Python (your current working directory);
 2. Install the required softwares with the preferred versions (this may work on other versions, but need to try) listed in the requirements.txt;
 3. Execute command python main.py;
 4. Copy the local host IP address (for example: http://127.0.0.1:5000/) on a browser such as Chrome;
