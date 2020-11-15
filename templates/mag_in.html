@@ -49,7 +49,7 @@ div.absolute_F {
 	<form action='http://localhost:5000/predict' method='post'>
 		<!--Input the geometrical parameters of the cylinders-->
 		<!--Input the geometrical parameters of the first cylinder-->
-		<h2 style = 'color:blue; background-color:#99FFFF;text-align:center;' >Computing the Levitation Force between Permanent Magnets using a Machine Learning based Data-Driven Model</h2>
+		<h2 style = 'color:blue; background-color:#99FFFF;text-align:center;' >Computing Magnetic Forces between Permanent Magnets using a Machine Learning based Data-Driven Model</h2>
 		<h4>Input the material property and geometrical parameters of the lower cylinder.</h4>
 		<p>Remanence (J): <input type='text' name='J' placeholder =  '{{J}} (T)'/> </p>
 		<p>Radius (R): <input type='text' name='R' placeholder = '{{R}} (mm)'/></p>
@@ -71,7 +71,7 @@ div.absolute_F {
 		<h4>Input the separation distance between the cylinders.</h4>
 		<p>Separation distance (&#958): <input type='text' name='&#958' placeholder = '{{xi}} (mm)'/></p>
 
-		<p style = 'color: red;'><b>Levitation force F: {{predicted_force}} (N)</b></p>
+		<p style = 'color: red;'><b>Magnetic force F: {{predicted_force}} (N)</b></p>
 		
 		<p><input type='Submit' value='Predict'/></p>
 
