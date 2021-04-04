@@ -8,4 +8,4 @@ Steps to open the HTML based API for the computation of the magnetic force betwe
 3. Execute command python main.py;
 4. Copy the local host IP address (for example: http://127.0.0.1:5000/) on a browser such as Chrome;
 5. Enjoy the state-of-the-art way which is fast and accurate to compute the magnetic force between permanent magnets using a deep learning based data-driven model;
-6. Please cite the paper: Van Tai Nguyen, Michael Birmingham and Matthew Dargusch, "Data – Driven Modelling of the Interaction Force between Permanent Magnets" https://doi.org/10.1016/j.jmmm.2021.167869 on your project!
+6. Please cite the paper: Van Tai Nguyen, Michael Birmingham and Matthew Dargusch, "Data – Driven Modelling of the Interaction Force between Permanent Magnets" https://doi.org/10.1016/j.jmmm.2021.167869 on your project, publications!
