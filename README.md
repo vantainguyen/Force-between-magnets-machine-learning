@@ -1,5 +1,7 @@
 # Force-between-magnets-machine-learning
 Computing the Levitation Force between Permanent Magnets using a Machine Learning based Data-Driven Model
+![image](https://user-images.githubusercontent.com/60877890/168451426-a99577a0-22e4-4058-815b-3b66d6d3a270.png)
+
 
 Steps to open the HTML based API for the computation of the magnetic force between two cylindrical permanent magnets:
 
