@@ -1,7 +1,10 @@
 # Force-between-magnets-machine-learning
 Computing the Levitation Force between Permanent Magnets using a Machine Learning based Data-Driven Model
+Deep learning architecture:
 ![image](https://user-images.githubusercontent.com/60877890/168451443-8c92b0e1-f197-42cb-9700-88161b8672f8.png)
+Feature importance:
 ![image](https://user-images.githubusercontent.com/60877890/168453050-6a84b0ec-09d5-4fc5-8cd7-53a75df0ea28.png)
+Friendly software interface:
 ![image](https://user-images.githubusercontent.com/60877890/168451426-a99577a0-22e4-4058-815b-3b66d6d3a270.png)
 
 
