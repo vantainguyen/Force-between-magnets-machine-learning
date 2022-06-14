@@ -1,5 +1,5 @@
 # Force-between-magnets-machine-learning
-Computing the Levitation Force between Permanent Magnets using a Machine Learning based Data-Driven Model;
+Computing the Levitation Force between Permanent Magnets using a Machine Learning based Data-Driven Model.
 <br clear="left">
 Deep learning architecture:
 <br clear="left">
