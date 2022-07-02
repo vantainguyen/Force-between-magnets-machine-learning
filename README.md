@@ -3,7 +3,7 @@ Computing the Levitation Force between Permanent Magnets using a Machine Learnin
 <br clear="left">
 Magnetic force model:
 <br clear="left">
-<img align="left" src="https://user-images.githubusercontent.com/60877890/176981184-ffc3432a-b915-4c24-a9cb-3c0ec17ed6ce.png" width="450" height="50">
+<img align="left" src="https://user-images.githubusercontent.com/60877890/176981184-ffc3432a-b915-4c24-a9cb-3c0ec17ed6ce.png" width="300" height="50">
 <br clear="left">
 Deep learning architecture:
 <br clear="left">
