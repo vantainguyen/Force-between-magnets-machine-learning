@@ -1,4 +1,7 @@
 # Force-between-magnets-machine-learning
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 Computing the Levitation Force between Permanent Magnets using a Machine Learning based Data-Driven Model.
 <br clear="left">
 Magnetic force model:
