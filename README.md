@@ -1,4 +1,4 @@
-# Computing the Levitation Force between Permanent Magnets using a Machine Learning based Data-Driven Model
+# Data–Driven Modelling of the Interaction Force between Permanent Magnets
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
